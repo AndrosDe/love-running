@@ -58,7 +58,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* hero image */
+/* hero image and cover text*/
 
 #hero-outer {
     height: 600px;
@@ -103,7 +103,7 @@ h1, h2 {
     height: 200px;
 
     padding-top: 40px;
-    padding: 10px;
+    padding-left: 10px;
 
     background-color: rgba(241, 109, 107, .7);
 
@@ -219,7 +219,7 @@ hr {
 /* footer */
 
 footer {
-    height: 150;
+    height: 150px;
 }
 
 .social-networks {
@@ -305,7 +305,6 @@ footer {
 
     #cover-text {
         left: 0;
-
     }
 
     #club-ethos {
@@ -335,6 +334,7 @@ footer {
 
 /* For small screens from 800px and down */
 @media screen and (max-width: 800px) {
+
     #photos {
         column-count: 2;
     }
